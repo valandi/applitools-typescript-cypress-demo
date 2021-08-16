@@ -1,0 +1,26 @@
+{
+  "name": "ts-cypress-applitools-demo",
+  "version": "1.0.0",
+  "description": "Applitools Typescript Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "typescript",
+    "example"
+  ],
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.22.2",
+    "@bahmutov/add-typescript-to-cypress": "2.1.2",
+    "@types/node": "8.10.56",
+    "cypress": "^3.8.3",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.4"
+  }
+}
